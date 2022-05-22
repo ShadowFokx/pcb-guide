@@ -1193,6 +1193,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "ROW0" (shape input) (at 128.27 66.04 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f586debb-3110-4c4c-b660-4cb1ff341a09)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 135.9445 65.9606 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
 
   (symbol (lib_id "power:GND") (at 80.01 45.72 0) (unit 1)
     (in_bom yes) (on_board yes)
